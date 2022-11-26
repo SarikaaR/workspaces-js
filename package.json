@@ -15,7 +15,7 @@
     "test:sandbox": "yarn test:sandbox:ci --verbose",
     "test:sandbox:ci": "yarn build && ava",
     "test": "yarn test:sandbox && yarn test:testnet",
-    "prepare": "husky install",
+    "fdprepare": "husky install",
     "release": "yarn lerna publish",
     "release:prerelease": "yarn release --dist-tag next"
   },
